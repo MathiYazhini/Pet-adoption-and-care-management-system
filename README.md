@@ -31,12 +31,36 @@ Java Core – For console-based user interaction
 
 Scanner Class – For input handling
 
-Collections (ArrayList, HashMap) – For temporary in-memory storage
+Collections (ArrayList) – For temporary in-memory storage
 
-Backend (Business Logic & Database)
-
-Java OOPs (Encapsulation, Inheritance, Polymorphism, Abstraction) – To model the system
-
+Backend (Business Logic & Database):
 JDBC (Java Database Connectivity) – To connect Java with SQL database
-
 MySQL – To store pets, adopters, adoptions, and care schedules
+
+
+
+##USE CASE DIAGRAM
+
+
+                        +------------------+
+                        |  Adopter (User)  |
+                        +------------------+
+                               |
+      ---------------------------------------------------------
+      |                                                       |
+ [Register as Adopter]                                [View Available Pets]
+      |                                                       |
+ [Adopt Pet]                                           [Return Adopted Pet]
+
+
+                        +------------------+
+                        |   Admin / Staff  |
+                        +------------------+
+                               |
+ -------------------------------------------------------------------------------
+ |                |                     |                        |              |
+[Add / Update /   |        [Manage      |       [Manage Pet      | [Approve /   |
+ Delete Pet Info] |        Care         |       Records]         | Cancel       |
+                  |        Schedules]   |                        | Adoption]    |
+ -------------------------------------------------------------------------------
+
