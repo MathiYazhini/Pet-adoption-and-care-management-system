@@ -16,6 +16,7 @@ Polymorphism – Overridden displayInfo() shows different details for each pet t
 
 🎯 Key Roles in the System
 
+
 Pet Management 🐕 – Add, update, and track available/adopted pets.
 
 Adopter Management 👨‍👩‍👧 – Register adopters and maintain their adoption history.
@@ -42,25 +43,4 @@ MySQL – To store pets, adopters, adoptions, and care schedules
 ##USE CASE DIAGRAM
 
 
-                        +------------------+
-                        |  Adopter (User)  |
-                        +------------------+
-                               |
-      ---------------------------------------------------------
-      |                                                       |
- [Register as Adopter]                                [View Available Pets]
-      |                                                       |
- [Adopt Pet]                                           [Return Adopted Pet]
-
-
-                        +------------------+
-                        |   Admin / Staff  |
-                        +------------------+
-                               |
- -------------------------------------------------------------------------------
- |                |                     |                        |              |
-[Add / Update /   |        [Manage      |       [Manage Pet      | [Approve /   |
- Delete Pet Info] |        Care         |       Records]         | Cancel       |
-                  |        Schedules]   |                        | Adoption]    |
- -------------------------------------------------------------------------------
-
+<img width="717" height="520" alt="Screenshot 2025-08-27 110704" src="https://github.com/user-attachments/assets/f6c712fc-5978-4776-9f37-e325118afa66" />
